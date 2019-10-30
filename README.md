@@ -130,7 +130,7 @@ Let's make a spice rack (a bookcase, but for spices):
 
 ```ruby
 # Simple 1-D arrays
-shelf_1 = ["Mace", "Ginger", "Marojam"]
+shelf_1 = ["Mace", "Ginger", "Marjoram"]
 shelf_2 = ["Paprika", "Fajita Mix", "Coriander"]
 shelf_3 = ["Parsley", "Sage", "Rosemary"]
 
@@ -138,7 +138,7 @@ spice_rack = [
   shelf_1,
   shelf_2,
   shelf_3,
-] # => [["Mace", "Ginger", "Marojam"], ["Paprika", "Fajita Mix", "Coriander"], ["Parsley", "Sage", "Rosemary"]]
+] # => [["Mace", "Ginger", "Marjoram"], ["Paprika", "Fajita Mix", "Coriander"], ["Parsley", "Sage", "Rosemary"]]
 ```
 
 If we don't need to use `shelf_1`, `shelf_2`, `shelf_3`, then we don't need to
@@ -147,12 +147,12 @@ using `Array` literal formatting:
 
 ```ruby
 # 2-D Array all in one go
-spice_rack = [["Mace", "Ginger", "Marojam"], ["Paprika", "Fajita Mix", "Coriander"], ["Parsley", "Sage", "Rosemary"]]
+spice_rack = [["Mace", "Ginger", "Marjoram"], ["Paprika", "Fajita Mix", "Coriander"], ["Parsley", "Sage", "Rosemary"]]
 
 # Same as above, but using whitespace to make it easier for humans to read
 
 spice_rack_pretty = [
-  ["Mace", "Ginger", "Marojam"],
+  ["Mace", "Ginger", "Marjoram"],
   ["Paprika", "Fajita Mix", "Coriander"],
   ["Parsley", "Sage", "Rosemary"]
 ]
@@ -170,12 +170,12 @@ target unique elements in a ***grid***. To read an element from a nested
 ```ruby
 spice_rack = [
     # 0        1          2
-  ["Mace", "Ginger", "Marojam"],             # 0
+  ["Mace", "Ginger", "Marjoram"],             # 0
   ["Paprika", "Fajita Mix", "Coriander"],    # 1
   ["Parsley", "Sage", "Rosemary"]            # 2
 ]
 
-spice_rack[0] #=>  ["Mace", "Ginger", "Marojam"]
+spice_rack[0] #=>  ["Mace", "Ginger", "Marjoram"]
 spice_rack[0][1] #=> "Ginger"
 spice_rack[1][1] #=> "Fajita Mix"
 ```
@@ -191,7 +191,7 @@ modification. If you can "target" an element you can read it or update it.
 ```ruby
 spice_rack = [
     # 0        1          2
-  ["Mace", "Ginger", "Marojam"],             # 0
+  ["Mace", "Ginger", "Marjoram"],             # 0
   ["Paprika", "Fajita Mix", "Coriander"],    # 1
   ["Parsley", "Sage", "Rosemary"]            # 2
 ]
