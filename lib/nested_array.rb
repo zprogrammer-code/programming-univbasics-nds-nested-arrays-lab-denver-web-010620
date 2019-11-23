@@ -18,7 +18,7 @@ ENFIELD_TENNIS_ACADEMY = [
 
 def assembled_matrix 
   [
-    ["Bruce Green", "Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert"], 
+    ["Bruce Green", "Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert",], 
     ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
     ]
   
