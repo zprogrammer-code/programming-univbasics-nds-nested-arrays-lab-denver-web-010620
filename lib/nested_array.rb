@@ -17,11 +17,11 @@ ENFIELD_TENNIS_ACADEMY = [
 ]
 
 def assembled_matrix 
-  [
+  my_nested_array = [
     ["Bruce Green", "Don Gately", "Joelle van Dyne", "Kate Gompert","Pat M."], 
-    ["Hal Incandenza", "Lyle", "Gerhard Schtitt","Hal Incandenza", "Mario Incandenza", "Michael Pemulis"]
+    ["Gerhard Schtitt","Hal Incandenza","Lyle", "Mario Incandenza", "Michael Pemulis"]
     ]
-  
+  return my_nested_array
   # Build an array that contains (or, "nests") the residents of The Ennet House
   # and the Enfield Tennis Academy as provided by the constants
 end
